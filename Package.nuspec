@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Barcode.NET.Mobile</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <authors>yushulx</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -13,8 +13,8 @@
     <copyright>Copyright ©2022 yushulx</copyright>
     <tags>barcode qrcode Aztec QR Datamatrix PDF417 Code39 Code93 Code128 Codabar Interleaved EAN-8 EAN-13 UPC-A UPC-E GS1Databar PatchCode Maxicode COMPOSITE PostalCode</tags>
     <dependencies>
-      <group targetFramework=".NETStandard2.1">
-        <dependency id="SampleDependency" version="1.0.0" />
+      <group targetFramework=".NETCoreApp6.0">
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" />
       </group>
     </dependencies>
   </metadata>
@@ -26,6 +26,7 @@
     <file src="android/bin/Release/net6.0-android/DynamsoftBarcodeReader.aar" target="lib/net6.0-android31.0/" />
 
     <file src="ios/bin/Release/net6.0-ios/ios.dll" target="lib/net6.0-ios15.4/" />
+    <file src="ios/manifest" target="lib/net6.0-ios15.4/ios.resources" />
     <file src="ios/bin/Release/net6.0-ios/ios.resources/DynamsoftBarcodeReader.xcframework/Info.plist" target="lib/net6.0-ios15.4/ios.resources/DynamsoftBarcodeReader.xcframework" />
     
     <file src="ios/bin/Release/net6.0-ios/ios.resources/DynamsoftBarcodeReader.xcframework/ios-arm64/DynamsoftBarcodeReader.framework/Info.plist" target="lib/net6.0-ios15.4/ios.resources/DynamsoftBarcodeReader.xcframework/ios-arm64/DynamsoftBarcodeReader.framework" />

@@ -15,7 +15,7 @@ Android and iOS
 
 ## How to Build the NuGet Package
 1. Import the project to Visual Studio 2022.
-2. Build `*.dll` files for Android and iOS.
+2. Build `*.dll` files for Android and iOS in `Release` mode.
 3. Install [nuget CLI](https://www.nuget.org/downloads) and run:
     
     ```bash

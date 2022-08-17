@@ -13,4 +13,11 @@ Android and iOS
 
 ![.NET MAUI barcode Qr code scanner](https://www.dynamsoft.com/codepool/img/2022/07/dotnet-maui-barcode-qrcode-scanner.jpg)
 
-<video src="./img/2022/07/dotnet-maui-barcode-qrcode-scanner.mp4" controls="controls" muted="muted" style="max-height:640px;max-width:100%;"></video>
+## How to Build the NuGet Package
+1. Import the project to Visual Studio 2022.
+2. Build `*.dll` files for Android and iOS.
+3. Install [nuget CLI](https://www.nuget.org/downloads) and run:
+    
+    ```bash
+    nuget pack
+    ```

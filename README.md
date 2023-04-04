@@ -1,3 +1,6 @@
+The project has been migrated and merged to [https://github.com/yushulx/dotnet-barcode-qr-code-sdk](https://github.com/yushulx/dotnet-barcode-qr-code-sdk).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 # .NET Barcode QR Code Reader SDK for Android and iOS
 
 Barcode.NET.Mobile is a binding library for [Dynamsoft Barcode Reader Mobile SDK](https://www.dynamsoft.com/barcode-reader/sdk-mobile/). It supports .NET MAUI development.
